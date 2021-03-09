@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+p {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: black;
+  padding: 5px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+.inner-1, .inner-2, .inner-3 {
+  background-color: gray;
+  margin: 5px;
+  border: 5px solid black;
+}
+
+.section-name-1, .section-name-2, .section-name-3 {
+  position: relative;
+  float: right;
+  width: 30%;
+  text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.section-name-1 {
+  background-color: rosybrown;
+}
+
+.section-name-2 {
+  background-color: indianred;
+}
+
+.section-name-3 {
+  background-color: moccasin;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .display-1, .display-2, .display-3 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .display-1, .display-2, .display-3 {
+    float: left;
+  }
+  .display-1, .display-2 {
+    width: 50%;
+  }
+  .display-3 {
+    width: 100%;
+  }
+}
