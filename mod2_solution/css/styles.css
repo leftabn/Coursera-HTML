@@ -30,7 +30,10 @@ p {
   float: right;
   width: 30%;
   text-align: center;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  border: solid;
+  border-width: 0px 2px 2px 2px;
+  border-color: black;
 }
 
 .section-name-1 {
@@ -39,6 +42,7 @@ p {
 
 .section-name-2 {
   background-color: indianred;
+  color: white;
 }
 
 .section-name-3 {
