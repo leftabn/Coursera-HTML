@@ -9,6 +9,18 @@ h1 {
   text-align: center;
 }
 
+span {
+  position: relative;
+  float: right;
+  width: 30%;
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 1.25rem;
+  border: solid;
+  border-width: 0px 0px 2px 2px;
+  border-color: black;
+}
+
 p {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   color: black;
@@ -24,18 +36,6 @@ p {
   background-color: gray;
   margin: 5px;
   border: 5px solid black;
-}
-
-.section-name-1, .section-name-2, .section-name-3 {
-  position: relative;
-  float: right;
-  width: 30%;
-  text-align: center;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
-  font-size: 1.25rem;
-  border: solid;
-  border-width: 0px 0px 2px 2px;
-  border-color: black;
 }
 
 .section-name-1 {
