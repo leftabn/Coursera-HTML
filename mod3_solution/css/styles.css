@@ -1,0 +1,40 @@
+a {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 1.75rem;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 1.25rem;
+}
+
+p {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: black;
+  padding: 5px;
+}
+
+#inner-1, #inner-2, #inner-3 {
+  background-color: gray;
+  margin: 1px;
+  border: 5px solid black;
+}
+
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+}
+
+#chicken, #beef, #sushi {
+  margin: 0;
+  float: left;
+}
