@@ -11,9 +11,15 @@ h1 {
 
 h2 {
   width: 100%;
-  text-align: center;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 1.25rem;
+}
+
+h3 {
+  width: 100%;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 1.25rem;
+  text-align: center;
 }
 
 p {
@@ -25,16 +31,11 @@ p {
 #inner-1, #inner-2, #inner-3 {
   background-color: gray;
   margin: 1px;
-  border: 5px solid black;
+  border: 2px solid black;
 }
 
 #header-nav {
   background-color: gray;
   border-radius: 0;
   border: 0;
-}
-
-#chicken, #beef, #sushi {
-  margin: 0;
-  float: left;
 }
